@@ -26,10 +26,10 @@ pipeline {
                 }
             }
         }
-        stage('Deliver') {
+        stage('Deliver_gogogo') {
             agent {
                 docker {
-                    image 'cdrx/pyinstaller-linux:python3'
+                    image 'cdrx/pyinstaller-linux:lastest'
                 }
             }
             steps {
